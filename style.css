@@ -1,0 +1,599 @@
+@charset 'UTF-8';
+
+/* ===============================================
+Base
+=============================================== */
+
+/*
+  Reset
+----------------------------------------------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  /* font: inherit; */
+  font-size: 100%;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+/* default style */
+
+body {
+  color: #333;
+  font-family: '游ゴシック', 'Yu Gothic', '游ゴシック体', 'YuGothic',
+  'Meiryo UI', 'メイリオ', Meiryo, sans-serif;
+  line-height: 1.5;
+}
+
+/* body {
+  font: 1em/1.5 游ゴシック, sans-serif;
+  color: #333;
+  background-color: #fff;
+} */
+
+img {
+  vertical-align: bottom;
+}
+
+/* ===============================================
+==================================================
+  Layout
+==================================================
+=============================================== */
+
+/*
+  Centering
+----------------------------------------------- */
+.container {
+  margin: 0 auto;
+  width: 960px;
+  /* background-color: #eee; */
+}
+
+/* * {
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+} */
+
+/*
+  Header
+----------------------------------------------- */
+h1 {
+  margin-top: 30px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  /* background-color: #eee; */
+}
+
+h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1 a:visited {
+  color: #333;
+}
+
+.select-lang {
+  position: fixed;
+  top: 34px;
+  right: auto;
+  margin-left: 843px;
+}
+
+.select-lang ul {
+  overflow: hidden;
+}
+
+.select-lang li {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 35px;
+  text-align: center;
+  line-height: 1;
+}
+
+.select-lang li + li {
+  border-left: 1px solid #333;
+}
+
+.select-lang a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
+.select-lang a:hover {
+  color: #333;
+}
+
+.other-lang a {
+  color: #ddd;
+}
+
+/* .select-lang a:visited {
+  color: #333;
+} */
+
+.nav-title {
+  position: absolute;
+  left: -1000px;
+  color: transparent;
+}
+
+.nav-list {
+  position: fixed;
+  top: 118px;
+  right: auto;
+  float: right;
+  margin-left: 850px;
+  width: 110px;
+  /* background-color: #ddd; */
+}
+
+.nav-item {
+  padding: 0 0 4px 0;
+  color: #333;
+  font-weight: bolder;
+  font-size: 1em;
+}
+
+.nav-item a:visited {
+  color: #333;
+}
+
+.nav-item a:hover {
+  background-color: #333;
+  /* text-decoration: underline; */
+  color: #fff;
+}
+
+/*
+  Main
+----------------------------------------------- */
+.main-content {
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  width: 790px;
+  /* background-color: #ddd; */
+}
+
+/*
+  Footer
+----------------------------------------------- */
+.footer {
+  clear: both;
+  padding: 100px 0 100px 0;
+  /* background-color: #ddd; */
+}
+
+.copyright {
+  position: fixed;
+  right: auto;
+  bottom: 60px;
+  z-index: 1;
+  margin-left: 815px;
+  color: #ddd;
+  font-size: .6em;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/* ===============================================
+==================================================
+  Object: top page
+==================================================
+=============================================== */
+
+/*
+  Page title
+----------------------------------------------- */
+.page-title {
+  padding: 0 0 15px 0;
+  color: #333;
+  font-weight: bolder;
+  font-size: 1em;
+  /* background-color: #ddd; */
+}
+
+/* .page-title a{
+  text-decoration: none;
+} */
+
+.page-title a:visited {
+  color: #333;
+}
+
+/*
+  Grid
+----------------------------------------------- */
+.grid {
+  overflow: hidden;
+  /* background-color: #ccc; */
+}
+
+.grid-item {
+  float: left;
+  margin-left: 20px;
+  width: 385px;
+  /* background-color: #ddd; */
+}
+
+.grid-item:nth-child(odd) {
+  margin-left: 0;
+}
+
+.fluid-image {
+  margin-left: 279px;
+  width: 526px;
+}
+
+.fluid-image .grid-item {
+  float: left;
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/*
+  Card
+----------------------------------------------- */
+.card {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  padding-top: 246px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+  text-decoration: none;
+}
+
+.card:hover {
+  border-bottom: 1px solid #ddd;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: block;
+  width: 385px;
+  /* background-color: #eee; */
+}
+
+/* ===============================================
+==================================================
+  Object: Works pages
+==================================================
+=============================================== */
+.works-page-title {
+  position: fixed;
+  top: 0;
+  right: auto;
+  margin-left: 0;
+}
+
+.works-title {
+  position: fixed;
+  top: 84px;
+  right: auto;
+}
+
+.description-text {
+  position: fixed;
+  top: 118px;
+  bottom: auto;
+  display: block;
+  width: 264px;
+  text-align: justify;
+  font-size: .75em;
+  line-height: 1.7;
+}
+
+.description-text p:first-of-type {
+  padding-bottom: 12px;
+}
+
+.description-text p:last-of-type {
+  padding-top: 12px;
+}
+
+.description-image {
+  margin-left: 279px;
+  /* background-color: #eee; */
+}
+
+.description-image + .description-image {
+  margin-top: 100px;
+}
+
+.description-content:nth-child(2) {
+  margin-top: 92px;
+}
+
+.description-content:last-child {
+  margin-bottom: 250px;
+}
+
+.additional-text {
+  margin-top: 100px;
+  margin-left: 279px;
+}
+
+.additional-text h3 {
+  display: block;
+  margin-bottom: 15px;
+  width: 170px;
+  border-bottom: 1px solid #333;
+}
+
+.additional-text p {
+  text-align: justify;
+  font-size: .75em;
+  line-height: 1.7;
+}
+
+.additional-info:first-of-type {
+  margin-top: 100px;
+}
+
+.additional-info {
+  margin-left: 279px;
+  /* background-color: #eee; */
+}
+
+.additional-info + .additional-info {
+  margin-top: 25px;
+}
+
+.additional-info h3 {
+  display: block;
+  margin-bottom: 15px;
+  width: 80px;
+  border-bottom: 1px solid #333;
+  /* background: #eee; */
+}
+
+.additional-info a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.additional-info a:hover {
+  color: #999;
+}
+
+/* ===============================================
+==================================================
+  Object: Biography page
+==================================================
+=============================================== */
+.bio-content {
+  display: block;
+  width: 640px;
+  /* margin: 0 auto; */
+  text-align: justify;
+  /* background-color: #ddd; */
+}
+
+.bio-title {
+  margin-bottom: 5px;
+}
+
+.bio-item {
+  display: block;
+  /* margin: 20px 0; */
+  /* background-color: #eee; */
+}
+
+.bio-item + .bio-item {
+  margin: 20px 0;
+}
+
+.experience-item {
+  display: block;
+  /* background-color: #ddd; */
+}
+
+.experience-item + .experience-item {
+  margin: 10px 0;
+}
+
+.experience-title {
+  display: block;
+  /* padding-left: 4px; */
+  /* border-left: 2px solid #333; */
+}
+
+.experience-list {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.education-list {
+  list-style-type: none;
+}
+
+/* ===============================================
+==================================================
+  Object: Contact page
+==================================================
+=============================================== */
+.my-contact {
+  font-style: normal;
+}
+
+/* ===============================================
+==================================================
+  other things
+==================================================
+=============================================== */
+.add-info {
+  color: #333;
+  font-weight: lighter;
+  font-size: .75em;
+}
+
+.superscript {
+  vertical-align: super;
+  font-size: .71em;
+}
+
+.current-page {
+  /* text-decoration: underline; */
+  color: #333;
+}
+
+.next-page {
+  color: #333;
+  text-decoration: none;
+}
+
+.previous-page {
+  color: #333;
+  text-decoration: none;
+}
+
+.first-page {
+  color: #333;
+  text-decoration: none;
+}
+
+.test {
+  position: fixed;
+  top: 34px;
+  left: 850px;
+  z-index: 2;
+  display: block;
+  width: 16px;
+  height: 960px;
+  background-color: rgba(49, 49, 49, .514);
+}
