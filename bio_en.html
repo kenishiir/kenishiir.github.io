@@ -11,21 +11,22 @@
   <header>
     <div class="container">
       <h1 class="title"><a href="index_en.html">Ken Ishii</a></h1>
-      <div class="select-lang">
-        <ul>
+      <div class="menu">
+        <ul class="select-lang">
           <li><a href="bio_en.html">EN</a></li>
           <li class="other-lang"><a href="#">FR</a></li>
           <li class="other-lang"><a href="bio.html">JP</a></li>
         </ul>
+
+        <nav class="global-nav">
+          <h2 class="nav-title">Site navigation</h2>
+          <ol class="nav-list">
+            <li class="nav-item"><a href="index_en.html" class="next-page">Works</a></li>
+            <li class="nav-item"><a href="bio_en.html" class="current-page">Biography</a></li>
+            <li class="nav-item"><a href="contact_en.html" class="next-page">Contact</a></li>
+          </ol>
+        </nav>
       </div>
-      <nav class="global-nav">
-        <h2 class="nav-title">Site navigation</h2>
-        <ol class="nav-list">
-          <li class="nav-item"><a href="index_en.html" class="next-page">Works</a></li>
-          <li class="nav-item"><a href="bio_en.html" class="current-page">Biography</a></li>
-          <li class="nav-item"><a href="contact_en.html" class="next-page">Contact</a></li>
-        </ol>
-      </nav>
     </div>
     <!-- /.container -->
   </header>
@@ -42,7 +43,7 @@
                 <h3 class="bio-title">Experience</h3>
                 <dl>
                   <div class="experience-item">
-                    <dt class="experience-title">Member of <strong>Wakita Laboratory SFC</strong>, Keio University, <span class="add-info">August 2016 &#45; present</span></dt>
+                    <dt class="experience-title">Member of <strong>Wakita Laboratory SFC</strong>, Keio University, <span class="add-info"><time datetime="2016-08">August 2016</time> &#45; <time datetime="2019-02">present</time></span></dt>
                     <dd>
                       <ul class="experience-list">
                         <li class="experience-list-item">Created videos using computer graphics, physic simulations with openFrameworks.</li>
@@ -51,7 +52,7 @@
                     </dd>
                   </div>
                   <div class="experience-item">
-                    <dt class="experience-title">Assistant of <strong>YUKI NINAGAWA</strong> (Painter, Actress), <span class="add-info">January 2017 &#45; present</span></dt>
+                    <dt class="experience-title">Assistant of <strong>YUKI NINAGAWA</strong> (Painter, Actress), <span class="add-info"><time datetime="2017-01">January 2017</time> &#45; <time datetime="2019-02">present</time></span></dt>
                     <dd>
                       <ul class="experience-list">
                         <li class="experience-list-item">Responsible (planning, production, order) for artist's design materials such as postcards, flyers, pictures for official website, t-shirts, archive books.</li>
@@ -62,7 +63,7 @@
                     </dd>
                   </div>
                   <div class="experience-item">
-                    <dt class="experience-title">Assistant designer at <strong>RiSN Limited</strong>, <span class="add-info">December 2016 &#45; March 2017</span></dt>
+                    <dt class="experience-title">Assistant designer at <strong>RiSN Limited</strong>, <span class="add-info"><time datetime="2016-12">December 2016</time> &#45; <time datetime="2017-03">March 2017</time></span></dt>
                     <dd>
                       <ul class="experience-list">
                         <li class="experience-list-item">Supported angency's designers for planning movie scenes.</li>
@@ -73,7 +74,7 @@
                     </dd>
                   </div>
                   <div class="experience-item">
-                    <dt class="experience-title">Mentor at <strong>Life is Tech!</strong>, <span class="add-info">Jun 2016 &#45; August 2016</span></dt>
+                    <dt class="experience-title">Mentor at <strong>Life is Tech!</strong>, <span class="add-info"><time datetime="2016-06">Jun 2016</time> &#45; <time datetime="2016-08">August 2016</time></span></dt>
                     <dd>
                       <ul class="experience-list">
                         <li class="experience-list-item">Managed a team of 3 to 4 students during 4-day programming camps.</li>
@@ -89,9 +90,9 @@
               <section class="bio-education">
                 <h3 class="bio-title">Education</h3>
                 <ol class="education-list">
-                  <li>Wakita Laboratory SFC, Keio University, <span class="add-info">2016 &#45; present</span></li>
-                  <li>Faculty of Environment and Information SFC, Keio University, <span class="add-info">2015 &#45; present</span></li>
-                  <li>Lycée Français International de Tokyo, <span class="add-info">2011 &#45; 2014</span></li>
+                  <li>Wakita Laboratory SFC, Keio University, <span class="add-info"><time datetime="2016">2016</time> &#45; <time datetime="2019-02">present</time></span></li>
+                  <li>Faculty of Environment and Information SFC, Keio University, <span class="add-info"><time datetime="2015">2015</time> &#45; <time datetime="2019-02">present</time></span></li>
+                  <li>Lycée Français International de Tokyo, <span class="add-info"><time datetime="2011">2011</time> &#45; <time datetime="2014">2014</time></span></li>
                 </ol>
               </section>
             </div>
@@ -99,7 +100,9 @@
               <section class="bio-languages">
                 <h3 class="bio-title">Languages</h3>
                 <ul class="languages-list">
-                  <li>french (native), japanese (native), english (fluent)</li>
+                  <li>french (native)</li>
+                  <li>japanese (native)</li>
+                  <li>english (fluent)</li>
                 </ul>
               </section>
             </div>
@@ -114,7 +117,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="copyright">&copy; 2018 Ken Ishii.</p>
+      <p class="copyright"><small>&copy; 2018 Ken Ishii.</small></p>
     </div>
     <!-- /.container -->
   </footer>
