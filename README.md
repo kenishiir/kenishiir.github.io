@@ -1,3 +1,3 @@
 # kenishiir.github.io
 
-Ken Ishii's portofolio site
+My portofolio site.
