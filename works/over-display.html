@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title lang="ja">石井健 - Ken Ishii</title>
+  <title>石井健 - Ken Ishii</title>
   <link rel="stylesheet" href="../style.css" />
 </head>
 
@@ -11,21 +11,22 @@
   <header>
     <div class="container">
       <h1 class="works-page-title"><a href="../index.html"><span class="uppercase">Ken Ishii</span></a></h1>
-      <div class="select-lang">
-        <ul>
+      <div class="menu">
+        <ul class="select-lang">
           <li class="other-lang"><a href="works_en/over-display_en.html">EN</a></li>
           <li class="other-lang"><a href="#">FR</a></li>
           <li><a href="over-display.html">JP</a></li>
         </ul>
+
+        <nav class="global-nav">
+          <h2 class="nav-title">サイトナビゲーション</h2>
+          <ol class="nav-list">
+            <li class="nav-item"><a href="../index.html" class="next-page">制作</a></li>
+            <li class="nav-item"><a href="../bio.html" class="next-page">プロフィール</a></li>
+            <li class="nav-item"><a href="../contact.html" class="next-page">問い合わせ</a></li>
+          </ol>
+        </nav>
       </div>
-      <nav class="global-nav">
-        <h2 class="nav-title">Site navigation</h2>
-        <ol class="nav-list">
-          <li class="nav-item"><a href="../index.html" class="next-page">Works</a></li>
-          <li class="nav-item"><a href="../bio.html" class="next-page">Biography</a></li>
-          <li class="nav-item"><a href="../contact.html" class="next-page">Contact</a></li>
-        </ol>
-      </nav>
     </div>
     <!-- /.container -->
   </header>
@@ -34,28 +35,33 @@
     <div class="container">
       <div class="main-content">
 
-        <section class="description">
-          <h2 class="works-title">Akira Wakita, Over Display &#45; Modality</h2>
-          <div class="description-content">
-            <div class="description-text">
-              <p>
-                脇田玲氏による3回目の個展となる「Symptom Visualized - 可視化された兆候」にて発表された本作。本来の使用方法に背く形でディスプレイを使用することで、私たちが既存のルールや仕来りに縛られていることを思い出させてくれる。
-              </p>
-              <p>本作では、ディスプレイ上に貼り付けられている人工物の造形の一部を担当。</p>
-              <p><span class="add-info"><time datetime="2018-1">2018.1</time>, mixed media</span></p>
+        <div class="description">
+          <h1 class="works-title">Akira Wakita, Over Display &#45; Modality</h1>
+
+          <div class="description-text">
+            <p>
+              脇田玲氏による3回目の個展となる「Symptom Visualized - 可視化された兆候」にて発表された本作。本来の使用方法に背く形でディスプレイを使用することで、私たちが既存のルールや仕来りに縛られていることを思い出させてくれる。
+            </p>
+            <p>本作では、ディスプレイ上に貼り付けられている人工物の造形の一部を担当。</p>
+            <div class="add-info">
+              <p><time datetime="2018-1">2018.1</time></p>
+              <p>mixed media</p>
             </div>
-            <p class="description-image"><img src="../images/works/od-page/od-1.jpg" alt="大型のディスプレイに大破したパトカー、墜落した戦闘機が、中型のディスプレイにバービー人形、小型のディスプレイにコンピュータのマウスが貼り付けられている" width="511" height="681"></p>
-            <section class="additional-info">
-              <h3>クレジット</h3>
-              <p>アーティスト : 脇田 玲<br>
-              制作補佐 : 中野 亜希人、石井 健</p>
-            </section>
-            <section class="additional-info">
-              <h3>関連リンク</h3>
-              <p><a href="http://akirawakita.com/#works/overdisplay" target="_blank">脇田 玲 - Over Display, Modality</a></p>
-            </section>
           </div>
-        </section>
+        </div>
+        <div class="description-content">
+          <p class="description-image"><img src="../images/works/od-page/od-1.jpg" alt="大型のディスプレイに大破したパトカー、墜落した戦闘機が、中型のディスプレイにバービー人形、小型のディスプレイにコンピュータのマウスが貼り付けられている" width="511" height="681"></p>
+          <section class="additional-info">
+            <h2>クレジット</h2>
+            <p>アーティスト : 脇田 玲</p>
+            <p>制作補佐 : 中野 亜希人、石井 健</p>
+          </section>
+          <section class="additional-info">
+            <h2>関連リンク</h2>
+            <p><a href="http://akirawakita.com/#works/overdisplay" target="_blank">脇田 玲 - Over Display, Modality</a></p>
+          </section>
+        </div>
+
 
       </div>
       <!-- /.main-content -->
@@ -65,7 +71,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="copyright">&copy; 2018 Ken Ishii.</p>
+      <p class="copyright"><small>&copy; 2018 Ken Ishii.</small></p>
     </div>
     <!-- /.container -->
   </footer>

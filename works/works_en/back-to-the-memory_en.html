@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title lang="ja">石井健 - Ken Ishii</title>
+  <title>石井健 - Ken Ishii</title>
   <link rel="stylesheet" href="../../style.css" />
 </head>
 
@@ -11,21 +11,22 @@
   <header>
     <div class="container">
       <h1 class="works-page-title"><a href="../../index_en.html"><span class="uppercase">Ken Ishii</span></a></h1>
-      <div class="select-lang">
-        <ul>
+      <div class="menu">
+        <ul class="select-lang">
           <li><a href="back-to-the-memory_en.html">EN</a></li>
           <li class="other-lang"><a href="#">FR</a></li>
           <li class="other-lang"><a href="../back-to-the-memory.html">JP</a></li>
         </ul>
+
+        <nav class="global-nav">
+          <h2 class="nav-title">Site navigation</h2>
+          <ol class="nav-list">
+            <li class="nav-item"><a href="../../index_en.html" class="next-page">Works</a></li>
+            <li class="nav-item"><a href="../../bio_en.html" class="next-page">Biography</a></li>
+            <li class="nav-item"><a href="../../contact_en.html" class="next-page">Contact</a></li>
+          </ol>
+        </nav>
       </div>
-      <nav class="global-nav">
-        <h2 class="nav-title">Site navigation</h2>
-        <ol class="nav-list">
-          <li class="nav-item"><a href="../../index_en.html" class="next-page">Works</a></li>
-          <li class="nav-item"><a href="../../bio_en.html" class="next-page">Biography</a></li>
-          <li class="nav-item"><a href="../../contact_en.html" class="next-page">Contact</a></li>
-        </ol>
-      </nav>
     </div>
     <!-- /.container -->
   </header>
@@ -34,27 +35,41 @@
     <div class="container">
       <div class="main-content">
 
-        <section class="description">
-          <h2 class="works-title">Back to the Memory</h2>
-          <div class="description-content">
-            <div class="description-text">
-              <p>A product that can trace and play memories.</p>
-              <p>
-                The name of this product is "anywhere stand". With "anywhere stand" you can fix the smartphone anywhere in the air. By using this like a document camera, it can record memos and sketches. By doing this, we can rewind and reproduce what kind of thought processes existed up to the conclusion as to how ideas were born.<br>
-                Also, designers and architects who communicate using drawings and sketches can proceed more smoothly by using 'anywhere stand' when making video meetings.
-              </p>
-              <p><span class="add-info"><time datetime="2016-1">2016.1</time>, product design</span></p>
+        <div class="description">
+          <h1 class="works-title">Back to the Memory</h1>
+
+          <div class="description-text">
+            <p>A product that can trace and play memories.</p>
+            <p>
+              The name of this product is "anywhere stand". With "anywhere stand" you can fix the smartphone anywhere in the air. By using this like a document camera, it can record memos and sketches. By doing this, we can rewind and reproduce what kind of thought processes existed up to the conclusion as to how ideas were born.<br>
+              Also, designers and architects who communicate using drawings and sketches can proceed more smoothly by using 'anywhere stand' when making video meetings.
+            </p>
+            <div class="add-info">
+              <p><time datetime="2016-1">2016.1</time></p>
+              <p>product</p>
             </div>
-            <p class="description-image"><img src="../../images/works/btm-page/main.JPG" width="511" height="316"></p>
-            <p class="description-image"><img src="../../images/works/btm-page/no-phone.JPG" width="511" height="316"></p>
-            <p class="description-image"><img src="../../images/works/btm-page/with-phone.JPG" width="511" height="316"></p>
-            <iframe src="https://player.vimeo.com/video/307258832?portrait=0" width="511" height="287" class="description-image" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <section class="additional-info">
-              <h3>Credit</h3>
-              <p>Design: Miteki Kinase, Shin Hanagata, Ken Ishii</p>
-            </section>
           </div>
-        </section>
+        </div>
+        <div class="description-content">
+          <p class="description-image"><img src="../../images/works/btm-page/main.JPG" width="511" height="316"></p>
+          <p class="description-image"><img src="../../images/works/btm-page/no-phone.JPG" width="511" height="316"></p>
+          <p class="description-image"><img src="../../images/works/btm-page/with-phone.JPG" width="511" height="316"></p>
+          <iframe src="https://player.vimeo.com/video/307258832?portrait=0" width="511" height="287" class="description-image" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <section class="additional-info">
+            <h2>Credit</h2>
+            <dl>
+              <dt>Design</dt>
+              <dd>
+                <ul>
+                  <li>Miteki Kinase、</li>
+                  <li>Shin Hanagata、</li>
+                  <li>Ken Ishii</li>
+                </ul>
+              </dd>
+            </dl>
+          </section>
+        </div>
+
 
       </div>
       <!-- /.main-content -->
@@ -64,7 +79,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="copyright">&copy; 2018 Ken Ishii.</p>
+      <p class="copyright"><small>&copy; 2018 Ken Ishii.</small></p>
     </div>
     <!-- /.container -->
   </footer>

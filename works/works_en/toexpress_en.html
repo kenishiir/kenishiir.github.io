@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title lang="ja">石井健 - Ken Ishii</title>
+  <title>石井健 - Ken Ishii</title>
   <link rel="stylesheet" href="../../style.css" />
 </head>
 
@@ -11,21 +11,22 @@
   <header>
     <div class="container">
       <h1 class="works-page-title"><a href="../../index_en.html"><span class="uppercase">Ken Ishii</span></a></h1>
-      <div class="select-lang">
-        <ul>
+      <div class="menu">
+        <ul class="select-lang">
           <li><a href="toexpress_en.html">EN</a></li>
           <li class="other-lang"><a href="#">FR</a></li>
           <li class="other-lang"><a href="../toexpress.html">JP</a></li>
         </ul>
+
+        <nav class="global-nav">
+          <h2 class="nav-title">Site navigation</h2>
+          <ol class="nav-list">
+            <li class="nav-item"><a href="../../index_en.html" class="next-page">Works</a></li>
+            <li class="nav-item"><a href="../../bio_en.html" class="next-page">Biography</a></li>
+            <li class="nav-item"><a href="../../contact_en.html" class="next-page">Contact</a></li>
+          </ol>
+        </nav>
       </div>
-      <nav class="global-nav">
-        <h2 class="nav-title">Site navigation</h2>
-        <ol class="nav-list">
-          <li class="nav-item"><a href="../../index_en.html" class="next-page">Works</a></li>
-          <li class="nav-item"><a href="../../bio_en.html" class="next-page">Biography</a></li>
-          <li class="nav-item"><a href="../../contact_en.html" class="next-page">Contact</a></li>
-        </ol>
-      </nav>
     </div>
     <!-- /.container -->
   </header>
@@ -34,34 +35,38 @@
     <div class="container">
       <div class="main-content">
 
-        <section class="description">
-          <h2 class="works-title">Narrative Phenomenon</h2>
-          <div class="description-content">
-            <div class="description-text">
-              <p>
-                This work is exploring what kind of behaviors should have if the stories we talk everyday had shapes and movements.
-              </p>
-              <p>
-                The white lines in the work represents the stories we talk. It is a series of actions separated by a certain amount of time. Each occurrence is told differently from various points of views and is shifted little by little. Events run through the "story world" with space and time created by the narration.<br>
-                This work is based on the "Narrative Discourse" of Gérard Genette (1930-2018).
-              </p>
-              <p><span class="add-info"><time datetime="2018-8">2018.7</time>, openFrameworks</span></p>
+        <div class="description">
+          <h1 class="works-title">Narrative Phenomenon</h1>
+
+          <div class="description-text">
+            <p>
+              This work is exploring what kind of behaviors should have if the stories we talk everyday had shapes and movements.
+            </p>
+            <p>
+              The white lines in the work represents the stories we talk. It is a series of actions separated by a certain amount of time. Each occurrence is told differently from various points of views and is shifted little by little. Events run through the "story world" with space and time created by the narration.<br>
+              This work is based on the "Narrative Discourse" of Gérard Genette (1930-2018).
+            </p>
+            <div class="add-info">
+              <p><time datetime="2018-8">2018.7</time></p>
+              <p>openFrameworks</p>
             </div>
-            <iframe src="https://player.vimeo.com/video/307242985?portrait=0" class="description-image" width="511" height="287" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            <p class="description-image"><img src="../../images/works/te-page/te-1.jpg" width="511" height="316"></p>
-            <section class="additional-text">
-              <h3>About the "Narrative"</h3>
-              <p>
+          </div>
+        </div>
+        <div class="description-content">
+          <iframe src="https://player.vimeo.com/video/307242985?portrait=0" class="description-image" width="511" height="287" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p class="description-image"><img src="../../images/works/te-page/te-1.jpg" width="511" height="316"></p>
+          <section class="additional-text">
+            <h2>About the "Narrative"</h2>
+            <p>
                 I would like to decide a brief definition of "Narrative". "Narrative" is defined here as an act of telling a certain story as a narrator to another listener.<br>
                 As mentioned above, "narration" can be divide by the "content" (the stpry) of narration and its "action". "Content" of narration refers to events that actually occurred. For example, the "content" of my breakfast is : first I eat a salad. After that I had bread and fried egg. Finally I drink coffee. In this way we can list the actual events of breakfast, which can be divided from the act of the story telling.<br>
                 In this work, I pay attention to the length and the order of "content" and "action".<br>
                 "Content" and "action" of a story have different lengths. In the example above, the actual length of time to have breakfast was around 20 minutes. However, if you would like to tell this  to someone, you can do it with a word saying "I had breakfast." This is the difference of length between of "content" and "act" of narration.<br>
                 Next, I focused on the order. As same as the length, the order changes according to "content" and "action". A good example for explaining this is the beginning scene of Akiyuki Nosaka's short story "Grave of the Fireflies". The story begins with the last scene where the main character died at the station. Then the scene returns to the Kobe air raid with a cut back, and the story goes forward. By replacing the order of events, "content" can be effectively expressed.
                </p>
-            </section>
-          </div>
+          </section>
+        </div>
 
-        </section>
 
       </div>
       <!-- /.main-content -->
@@ -71,7 +76,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p class="copyright">&copy; 2018 Ken Ishii.</p>
+      <p class="copyright"><small>&copy; 2018 Ken Ishii.</small></p>
     </div>
     <!-- /.container -->
   </footer>

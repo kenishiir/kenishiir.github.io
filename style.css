@@ -347,12 +347,12 @@ h1 a:visited {
   /* width: 385px; */
 }
 
-.add-info li {
+.skill-list li {
   display: block;
   float: left;
 }
 
-.add-info li + li {
+.skill-list li + li {
   margin-left: 3px;
 }
 
@@ -439,8 +439,12 @@ h1 a:visited {
   line-height: 1.7;
 }
 
-.description-text p:last-of-type {
-  padding-top: 12px;
+.description-text > p:first-of-type {
+  margin-bottom: 12px;
+}
+
+.description-text > div:last-of-type {
+  margin-top: 12px;
 }
 
 .description-image {
@@ -465,7 +469,7 @@ h1 a:visited {
   margin-left: 279px;
 }
 
-.additional-text h3 {
+.additional-text h2 {
   display: block;
   margin-bottom: 15px;
   width: 170px;
@@ -491,12 +495,17 @@ h1 a:visited {
   margin-top: 25px;
 }
 
-.additional-info h3 {
+.additional-info h2 {
   display: block;
   margin-bottom: 15px;
   width: 80px;
   border-bottom: 1px solid #333;
   /* background: #eee; */
+}
+
+.additional-info li {
+  display: block;
+  float: left;
 }
 
 .additional-info a {
