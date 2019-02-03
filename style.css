@@ -508,6 +508,10 @@ h1 a:visited {
   float: left;
 }
 
+.additional-info li + li {
+ margin-left: 3px; 
+}
+
 .additional-info a {
   color: #333;
   text-decoration: underline;
