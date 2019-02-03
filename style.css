@@ -189,7 +189,7 @@ h1 a:visited {
   position: fixed;
   top: 34px;
   right: auto;
-  margin-left:  843px;
+  margin-left: 843px;
 }
 
 .select-lang {
@@ -199,13 +199,13 @@ h1 a:visited {
 .select-lang li {
   display: block;
   float: left;
+  padding: 0 8px;
   text-align: center;
   line-height: 1;
-  padding: 0 8px;
 }
 
 .select-lang li:first-child {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .select-lang li + li {
@@ -230,7 +230,7 @@ h1 a:visited {
 } */
 
 .global-nav {
- padding-top: 68px;
+  padding-top: 68px;
 }
 
 .nav-title {
@@ -331,10 +331,10 @@ h1 a:visited {
 
 .grid-item {
   display: inline-block;
-  vertical-align: top;
-  font-size: medium;
   margin-left: 20px;
   width: 385px;
+  vertical-align: top;
+  font-size: medium;
   /* background-color: #ddd; */
 }
 
@@ -367,8 +367,8 @@ h1 a:visited {
 
 .fluid-image .grid-item {
   float: left;
-  width: 250px;
   margin-bottom: 20px;
+  width: 250px;
 }
 
 /*
@@ -377,10 +377,11 @@ h1 a:visited {
 .card {
   position: relative;
   display: block;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 20px;
   padding-top: 246px;
   padding-bottom: 8px;
-  margin-bottom: 20px;
   border-bottom: 1px solid #eee;
   color: #333;
   text-decoration: none;
@@ -410,12 +411,12 @@ h1 a:visited {
 ==================================================
 =============================================== */
 .works-page-title {
-  margin-top: 30px;
-  padding-left: 30px;
   position: fixed;
   top: 0;
   right: auto;
+  margin-top: 30px;
   margin-left: 0;
+  padding-left: 30px;
   text-transform: uppercase;
 }
 
@@ -599,7 +600,7 @@ h1 a:visited {
 
 .test {
   position: fixed;
-  top: 0px;
+  top: 0;
   left: 821px;
   z-index: 2;
   display: block;
