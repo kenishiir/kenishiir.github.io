@@ -1,4 +1,4 @@
-# kenishiir.github.io
+# kenrio.github.io
 
 My portfolio site.
-https://kenishiir.github.io
+https://kenrio.github.io
